@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 import seaborn as sns
 
 # LOAD THE DATASET
-df = pd.read_csv(r'C:\Users\User\Downloads\hs\diabetes.csv')
+df = pd.read_csv(r'C:\Users\User\Downloads\streamlit_app.py\diabetes.csv')
 
 # REMOVE THE PREGNANCIES COLUMN FROM DATASET
 df = df.drop('Pregnancies', axis=1)
